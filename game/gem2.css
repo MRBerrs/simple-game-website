@@ -1,0 +1,129 @@
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #17153B;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #2E236C;
+  color: #C8ACD6;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #2E236C;
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+  background-color: #2E236C;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #C8ACD6;
+  margin-bottom: 10px;
+}
+
+h1#inGame {
+  font-size: 1.8rem;
+  color: #08D9D6;
+}
+
+h3#result {
+  font-size: 1.2rem;
+  color: #C8ACD6;
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.option {
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: #2E236C;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.option:hover {
+  background-color: #433D8B;
+  transform: scale(1.1);
+}
+
+.jancok {
+  display: inline-block;
+  background-color: #433D8B;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #C8ACD6;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.jancok:hover {
+  background-color: #08D9D6;
+  padding: 12px 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #2E236C;
+  color: #C8ACD6;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

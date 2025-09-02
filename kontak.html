@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Prickv</title>
+    <link rel="stylesheet" href="utama.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="utama.html" class="navbar-item">Home</a></li>
+                <li><a href="tentang.html" class="navbar-item">About Us</a></li>
+                <li><a href="kontak.html" class="navbar-item">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Us</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>If you have any questions, feel free to reach out to us through the contact form below or via our social media pages:</p>
+            
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+
+    </footer>
+</body>
+</html>
